@@ -1,1 +1,25 @@
+total= 0 #A quantidade inicial do total é estabelecida
+contador_de_notas = 0 #A quantidade inicial do contador de notas foi estabelecida
 
+while contador_de_notas <= 10:  #Condição para que, enquanto o contador de notas for menor ou igual a 10, ocorra a soma da nota com o total prévio    
+  nota = float(input('coloque sua nota aqui:'))
+  somatória = nota + total 
+# O erro se dá quando o while é aberto mas não é fechado, resultando em um looping infinito de adição de números
+  
+MÉDIA_DA_DISCIPLINA = (total/10) #média da disciplina
+
+print(MÉDIA_DA_DISCIPLINA)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+grades = [] #Cria uma lista
+
+for grade in range(10): #estabelece o numéro de posições da lista
+ grade = int(input("Coloque a nota: ")) #controle de usuário para colocar as notas
+ if grade >=10: #condição para que a nota não seja maior que 10
+    print("Nota não pode ser maior que 10!")
+    grade = int(input("Coloque a nota: ")) #cria outra posição para substituir a posição possivelmente colocada de forma errada
+ else:
+   grades.append(nota) #adiciona a nota à posição posterior da lista até a décima nota
+média_final = sum(grades)/10 #realiza a média final das notas
+print("A média final é: ", média_final) #imprime o valor da média final no terminal
