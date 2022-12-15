@@ -1,1 +1,12 @@
+#Sets são dados sem ordem que buscam não mostrar elementos duplicados, ou seja, busca identificar diferenças entre dados.
 
+set1=set('accggttaata')
+#No set1 é utilizado parênteses (), assim criando um set vazio(set()). Se usarmos a função print(set1) o resultado será {'g','t','a','c'}. 
+#Desse modo, a saída do terminal mostra todos os elementos presentes no set1, buscando não duplicar ou mostrar o arquivo inteiro.
+
+set2={'accggttaata'}
+#No set2 é criado um dicionário, sendo que o argumento implica que tudo que está dentro das aspas são uma única coisa.
+#Desse modo, a saída do terminal mostra tudo o que foi atribuído ao set (nesse caso, {'accggttaata'}). 
+#Caso o set2 fosse composto de {'a', 'a', 'c', 't', 'g'} e pedíssemos uma saída no terminal, a saída seria {'g','t','a','c'}
+
+#Portanto, para a criação de sets é recomendada a utilização de parênteses ().
