@@ -23,3 +23,6 @@ for grade in range(10): #estabelece o numéro de posições da lista
    grades.append(grade) #adiciona a nota à posição posterior da lista até a décima nota
 média_final = sum(grades)/10 #realiza a média final das notas
 print("A média final é: ", média_final) #imprime o valor da média final no terminal
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+md5sum = 3481bda941354294d28a40d898477d21
