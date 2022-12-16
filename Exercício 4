@@ -11,7 +11,7 @@ MÉDIA_DA_DISCIPLINA = (total/10) #média da disciplina
 print(MÉDIA_DA_DISCIPLINA)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+#Novo código proposto para o problema
 grades = [] #Cria uma lista
 
 for grade in range(10): #estabelece o numéro de posições da lista
