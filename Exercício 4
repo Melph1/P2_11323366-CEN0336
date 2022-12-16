@@ -20,6 +20,6 @@ for grade in range(10): #estabelece o numéro de posições da lista
     print("Nota não pode ser maior que 10!")
     grade = int(input("Coloque a nota: ")) #cria outra posição para substituir a posição possivelmente colocada de forma errada
  else:
-   grades.append(nota) #adiciona a nota à posição posterior da lista até a décima nota
+   grades.append(grade) #adiciona a nota à posição posterior da lista até a décima nota
 média_final = sum(grades)/10 #realiza a média final das notas
 print("A média final é: ", média_final) #imprime o valor da média final no terminal
